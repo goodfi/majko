@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="styl.css" />
+  </head>
+  <body>
+    <section class="main-block">
+      <section class="chat-block">
+        <header>
+          <h2>Chat</h2>
+        </header>
+        <main>
+          <div class="chat">
+            <div class="chat-user user">
+              <img src="https://placehold.co/70x70" alt="Jolanta Nowak" />
+              <p>Cześć idziesz jutro do kina?</p>
+            </div>
+            <div class="chat-user root">
+              <img
+                src="https://placehold.co/70x70"
+                alt="Krzysztof Łukasiński"
+              />
+              <p>Tak! A ty?</p>
+            </div>
+          </div>
+
+          Wpisz wiadomość: <input type="text" id="message" />
+          <button type="submit" class="send" onclick="JolantaAnswer()">
+            Wyślij</button
+          ><br />
+          <button type="submit" class="generate" onclick="RandomAnswer()">
+            Generuj losową liczbę
+          </button>
+        </main>
+      </section>
+      <aside>
+        <h3>Chat</h3>
+        <ul>
+          <li>Ogólny</li>
+          <li>
+            Tematyczne
+            <ol>
+              <li>Turystyczny</li>
+              <li>Żeglarski</li>
+              <li>Filatelistyczny</li>
+              <li>hodowla zwierzątek domowych</li>
+            </ol>
+          </li>
+        </ul>
+
+        <h3>Uczestnicy</h3>
+        <p>Jolanta Nowak</p>
+        <img src="https://placehold.co/70x70" alt="Jolanta Nowak" />
+        <p>Krzysztof Łukasiński</p>
+        <img src="https://placehold.co/70x70" alt="Krzysztof Łukasiński" />
+      </aside>
+    </section>
+    <footer>
+      <h5>Chat wykonał:2137</h5>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+<!-- todo
+
+
+‒ Obok siebie: napis „Wpisz wiadomość:”, pole edycyjne, przycisk o treści „Wyślij”. Kliknięcie 
+przycisku powoduje wywołanie funkcji skryptu ‒ Poniżej: przycisk o treści: „Generuj losową odpowiedź”. Kliknięcie przycisku powoduje 
+wywołanie funkcji skryptu ‒ Zawartość stopki: nagłówek piątego stopnia o treści: „Chat wykonał: ”, dalej wstawiony numer 
+zdającego.
+
+-->

@@ -1,0 +1,86 @@
+* {
+  font-family: 'Garamod';
+}
+
+h2 {
+  margin-top: 0;
+}
+header {
+  padding-top: 19.92px;
+  box-sizing: border-box;
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  height: 80px;
+}
+
+.chat-block {
+  width: 80%;
+  height: 680px;
+}
+.main-block {
+  width: 100%;
+  display: flex;
+}
+aside {
+  background-color: coral;
+  width: 20%;
+  height: 680px;
+}
+
+footer {
+  background-color: tomato;
+  color: white;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  padding: 0 10px;
+}
+
+.chat {
+  border: 1px solid tomato;
+  margin: 15px;
+  height: 470px;
+  overflow: scroll;
+}
+.chat-user {
+  border-radius: 5px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+  margin: 2%;
+  padding: 3px;
+}
+
+.user {
+  background-color: #eee;
+}
+
+.root {
+  background-color: #ccc;
+  flex-direction: row-reverse;
+}
+
+button {
+  background-color: tomato;
+  border: 1px solid darkred;
+  padding: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 500px;
+}
+h5 {
+  margin: 0;
+}
+
+/* 
+
+‒ Dla obu przycisków: kolor tła Tomato, obramowanie linią ciągłą o szerokości 1 px i kolorze DarkRed, 
+marginesy wewnętrzne 5 px, czcionka pogrubiona 
+‒ Dla pola edycyjnego tekstowego: szerokość 500 px  */
